@@ -12,14 +12,14 @@
 
 | Interface Name | Request Type | Response Type                   | Run At | Remark         |
 | -------------- | ------------ | ------------------------------- | ------ | -------------- |
-| ReadConfig     | None         | [NodeConfig](#NodeConfig)       | Client | 读取当前配置   |
+| ReadConfig     | None         | [NodeConfig](#NodeConfig)       | Client | 读取当前配置    |
 | Restart        | None         | [EventResponse](#EventResponse) | Client | 重启Nginx      |
-| Start          |              | [EventResponse](#EventResponse) | Client |                |
-| Stop           |              | [EventResponse](#EventResponse) | Client |                |
-| Status         | None         | [Status](#Status)               | Server | 获取服务端状态 |
-|                |              |                                 |        |                |
-|                |              |                                 |        |                |
-|                |              |                                 |        |                |
+| Start          | None         | [EventResponse](#EventResponse) | Client |                |
+| Stop           | None         | [EventResponse](#EventResponse) | Client |                |
+| Status         | None         | [Status](#Status)               | Server | 获取服务端状态  |
+| Reload         | None         | [EventResponse](#EventResponse) | Client |                |
+| Write          | None         | [EventResponse](#EventResponse) | Client |                |
+| Verify         | None         | [EventResponse](#EventResponse) | Client |                |
 |                |              |                                 |        |                |
 
 
