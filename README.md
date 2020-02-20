@@ -1,4 +1,4 @@
-## EasyNginxManager
+## EasyNginxManagement
 
 > 顾名思义，就是简单的Nginx管理工具，下文简称`ENM`
 
